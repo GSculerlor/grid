@@ -27,6 +27,7 @@ kotlin {
         val jvmMain by getting {
             dependencies {
                 implementation(compose.desktop.currentOs)
+                implementation("org.kodein.di:kodein-di-framework-compose:7.12.0")
             }
         }
         val jvmTest by getting
